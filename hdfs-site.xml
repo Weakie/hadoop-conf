@@ -4,9 +4,24 @@
 <!-- Put site-specific property overrides in this file. -->
 
 <configuration>
-	<property>
-		<name>dfs.replication</name>
-		<value>1</value>
+	<property>  
+       		<name>dfs.name.dir</name>  
+        	<value>/home/weakie/hadoop-data/name</value> 
+		<!-- namenode持久存储名字空间，事务日志的本地路径 -->
+	</property>  
+	<property>  
+        	<name>dfs.data.dir</name>  
+        	<value>/home/weakie/hadoop-data/data</value> 
+		<!-- datanode存放数据的路径 -->  
+	</property>  
+	<property>  
+        	<name>dfs.datanode.max.xcievers</name>  
+        	<value>4096</value>  
+	</property>  
+	<property>  
+        	<name>dfs.replication</name>  
+        	<value>2</value> 
+		<!-- 数据备份的个数，默认是3 -->
 	</property>
 	<property>
 		<name>dfs.permissions</name>
