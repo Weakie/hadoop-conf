@@ -6,12 +6,12 @@
 <configuration>
 	<property>  
        		<name>dfs.name.dir</name>  
-        	<value>/home/weakie/hadoop-data/name</value> 
+        	<value>/home/${user.name}/hadoop-data/name</value> 
 		<!-- namenode持久存储名字空间，事务日志的本地路径 -->
 	</property>  
 	<property>  
         	<name>dfs.data.dir</name>  
-        	<value>/home/weakie/hadoop-data/data</value> 
+        	<value>/home/${user.name}/hadoop-data/data</value> 
 		<!-- datanode存放数据的路径 -->  
 	</property>  
 	<property>  
