@@ -11,7 +11,7 @@
 	</property>  
 	<property>    
        	 	<name>hadoop.tmp.dir</name>    
-        	<value>/home/weakie/hadoop-data/tmp</value>
+        	<value>/home/weakie/data-hadoop/tmp</value>
         	<description>A base for other temporary directories.</description>  
 </property>	
 </configuration>
