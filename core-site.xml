@@ -7,11 +7,11 @@
 	<property>   
         	<name>fs.default.name</name>    
         	<value>hdfs://192.168.1.112:54310</value>
-		<!--master-->
+		<!--master namenode-->
 	</property>  
 	<property>    
        	 	<name>hadoop.tmp.dir</name>    
-        	<value>/home/${user.name}/hadoop-data/tmp</value>
+        	<value>/home/weakie/hadoop-data/tmp</value>
         	<description>A base for other temporary directories.</description>  
 </property>	
 </configuration>
